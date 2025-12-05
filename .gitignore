@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+.vs/
+
+session.cookie
+
+/csharp/Stage/
+/csharp/Inputs
