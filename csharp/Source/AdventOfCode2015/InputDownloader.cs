@@ -38,7 +38,7 @@ public class InputDownloader : IDisposable
 
     public void DownloadDay(int day)
     {
-        var year = DateTime.Today.Year;
+        var year = 2015;
         var inputFilePath = Path.Combine(_inputFolder, $"{day}.input");
 
         // Invalid day, or file already exists: Abort.

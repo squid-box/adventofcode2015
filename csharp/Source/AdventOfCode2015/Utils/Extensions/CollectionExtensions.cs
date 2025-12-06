@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace AdventOfCode2015.Utils.Extensions;
 
@@ -68,5 +69,23 @@ public static class CollectionExtensions
         result.Add(currentList);
 
         return result;
+    }
+
+    /// <summary>
+    /// Calculates the product of the numbers in a given collection.
+    /// </summary>
+    /// <typeparam name="T">The type of object in the collection.</typeparam>
+    /// <param name="input">The collection to multiply.</param>
+    /// <returns>The product of multiplying all items in the given collection.</returns>
+    public static T Product<T>(this ICollection<T> input) where T : INumber<T>
+    {
+        var product = T.One;
+
+        foreach (var item in input)
+        {
+            product *= item;
+        }
+
+        return product;
     }
 }

@@ -4,7 +4,7 @@
   </Configurations>
   <Folder Name="/Solution Items/">
     <File Path="Directory.Build.props" />
-    <File Path="README.md" />
+    <File Path="../README.md" />
   </Folder>
   <Project Path="Source/AdventOfCode2015.Generator/AdventOfCode2015.Generator.csproj" />
   <Project Path="Source/AdventOfCode2015.Tests/AdventOfCode2015.Tests.csproj" />

@@ -2,8 +2,8 @@
 
 | Day                                        | Title                                  | C#            | Ruby          |
 |:------------------------------------------:|:--------------------------------------:|:-------------:|:-------------:|
-|  [1](https://adventofcode.com/2015/day/1)  | Not Quite Lisp                         |               | :star: :star: |
-|  [2](https://adventofcode.com/2015/day/2)  | I Was Told There Would Be No Math      |               | :star: :star: |
+|  [1](https://adventofcode.com/2015/day/1)  | Not Quite Lisp                         | :star: :star: | :star: :star: |
+|  [2](https://adventofcode.com/2015/day/2)  | I Was Told There Would Be No Math      | :star: :star: | :star: :star: |
 |  [3](https://adventofcode.com/2015/day/3)  | Perfectly Spherical Houses in a Vacuum |               | :star: :star: |
 |  [4](https://adventofcode.com/2015/day/4)  | The Ideal Stocking Stuffer.            |               | :star: :star: |
 |  [5](https://adventofcode.com/2015/day/5)  | Doesn't He Have Intern-Elves For This? |               | :star:        |
